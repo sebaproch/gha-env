@@ -2,7 +2,7 @@ name: Deployment
 on:
   push:
     branches:
-      - main
+      - master
       - dev
 env: #dla wszystkich job-ów environment pomiedzy push branches a jobs
   MONGODB_DB_NAME: gha-demo
