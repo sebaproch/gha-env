@@ -9,7 +9,7 @@ env: #dla wszystkich job-ów environment pomiedzy push branches a jobs
 jobs:
   test:
     env: 
-      testing #dla konkretnego joba
+      #testing #dla konkretnego joba
       MONGODB_CLUSTER_ADDRESS: cluster0.g0fl6ho.mongodb.net
       MONGODB_USERNAME: sebaproc
       MONGODB_PASSWORD: 5vMqzIERX01zg2kO
