@@ -11,8 +11,8 @@ jobs:
     env: 
       #testing #dla konkretnego joba
       MONGODB_CLUSTER_ADDRESS: cluster0.g0fl6ho.mongodb.net
-      MONGODB_USERNAME: sebaproc
-      MONGODB_PASSWORD: 5vMqzIERX01zg2kO
+      MONGODB_USERNAME: $ {{ secrets.MONGODB_USERNAME }}
+      MONGODB_PASSWORD: $ {{ secrets.MONGODB_PASSWORD }}
       PORT: 8080
     runs-on: ubuntu-latest
     steps:
